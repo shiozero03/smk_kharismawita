@@ -1,0 +1,20 @@
+.cap-1{
+	animation: caption 2s 1;
+	/*animation-delay: .5s;*/
+}
+ol li{
+	list-style: decimal;
+}
+@media screen and (max-width: 767px){
+	.table-cover{
+		white-space: nowrap;
+		overflow-x: scroll;
+	}
+}
+@keyframes caption{
+	from{
+		margin-top: -100%;
+	} to{
+		margin-top: 0;
+	}
+}
